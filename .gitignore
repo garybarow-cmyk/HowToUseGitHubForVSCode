@@ -1,0 +1,30 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment and Secret Files
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+credentials.json
+
+# Dependencies
+node_modules/
+vendor/
+venv/
+__pycache__/
+
+# Build & Cache Outputs
+dist/
+build/
+out/
+.cache/
+*.log
+
+# Editor & IDE Configuration
+.idea/
+*.swp
+*.swo
